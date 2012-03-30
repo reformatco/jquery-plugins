@@ -1,0 +1,39 @@
+button.asos {
+	background-color:#fff;
+	border:1px solid black;
+	color:#000;
+	font:bold 11px/15px Tahoma, Arial, sans-serif;
+	text-transform:uppercase;
+	padding:3px 20px 3px 10px;
+	/*float:right;*/
+	/*margin:0 12px 10px 0;*/
+	background-image:url('../img/blockarrow.png');
+	background-repeat:no-repeat;
+	background-position:92% 0%;
+	-webkit-box-shadow: 	4px 4px 0px 0 #000;
+	-moz-box-shadow: 		4px 4px 0px 0 #000;
+	box-shadow: 			4px 4px 0px 0 #000;
+	&:active {
+		color:#666;
+		border:1px solid #666;
+		-webkit-box-shadow: 	4px 4px 0px 0 #666;
+		-moz-box-shadow: 		4px 4px 0px 0 #666;
+		box-shadow: 			4px 4px 0px 0 #666;
+	}
+}
+
+
+.asos-button {
+	position:relative;
+	button { 
+		z-index:2; 
+		position:absolute;
+		display:block;
+	}
+	.asos-shadow {
+		display:block;
+		background-color:#000;
+		position:absolute;
+		z-index:1;
+	}
+}
